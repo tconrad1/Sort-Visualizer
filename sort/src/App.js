@@ -1,17 +1,18 @@
 import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import './css/List.css';
+import ListManip from './ListManip';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
+        <h1>Sort Visualizer, click the buttons below to start</h1>
+        <ListManip></ListManip>
       </header>
     </div>
+    
   );
 }
 
